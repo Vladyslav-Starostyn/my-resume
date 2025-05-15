@@ -8,7 +8,7 @@ body {
     background-color: #F5F7FA;
 }
 
-code {
+ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
 }
@@ -23,7 +23,7 @@ p {
 
 img {
     display: block;
-    max-width: 100%;
+    /* max-width: 100%; */
     height: auto;
 }
 
@@ -173,7 +173,7 @@ list-style:inside;
 
  /* sidebar-section */
 
-.Sidebar-sections{
+.Sidebar-sections{width: 370px;
     width: 370px;
     background-color: #1E2939;
     padding: 40px 0;
